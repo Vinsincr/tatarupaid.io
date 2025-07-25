@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Desain Grafis | Tata rupa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h2>Tata rupa</h2>
+                <p>Graphic Designer</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-text">Menciptakan <span class="highlight">Visual</span> yang Berbicara</h1>
+                <p class="animate-text delay-1">Desain Grafis | Branding | Ilustrasi | Layout Design | konten kreator</p>
+                <div class="hero-buttons animate-text delay-2">
+                    <a href="#portfolio" class="btn btn-primary">Lihat Karya</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Saya</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Desainer Grafis dan Konten Kreator dengan Passion dalam Visual Communication</h3>
+                    <p>Halo! Kami Tata rupa, Team desainer grafis dan content creator Tim yang solid dalam menciptakan desain visual yang menarik dan efektif. Saya percaya bahwa desain dan konten yang baik dapat menyampaikan pesan dengan lebih kuat daripada kata-kata.</p>
+                    <p>Keahlian saya mencakup branding, layout design, ilustrasi digital, pembuatan konten dan desain untuk media cetak maupun digital. Saya selalu berusaha memahami visi klien dan menerjemahkannya menjadi karya desain yang bermakna.</p>
+                    
+                    <div class="skills">
+                        <h4>Keahlian Utama:</h4>
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <span>Branding & Identity</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Layout Design</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Ilustrasi Digital</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Typography</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portofolio Karya</h2>
+                <div class="divider"></div>
+                <p>Kumpulan desain terbaik yang telah saya kerjakan</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="print">Print Design</button>
+                <button class="filter-btn" data-filter="digital">Digital Design</button>
+                <button class="filter-btn" data-filter="illustration">Ilustrasi</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Brand Identity Cafe</h3>
+                            <p>Logo Design & Branding</p>
+                            <a href="#" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Brochure Perusahaan</h3>
+                            <p>Layout Design</p>
+                            <a href="#" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="digital">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-ad"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Banner Iklan Digital</h3>
+                            <p>Social Media Design</p>
+                            <a href="#" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="illustration">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-pencil-alt"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Ilustrasi Karakter</h3>
+                            <p>Digital Illustration</p>
+                            <a href="#" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Packaging Produk</h3>
+                            <p>Product Design</p>
+                            <a href="#" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Magazine Layout</h3>
+                            <p>Editorial Design</p>
+                            <a href="#" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Layanan Saya</h2>
+                <div class="divider"></div>
+                <p>Solusi desain grafis yang disesuaikan untuk kebutuhan bisnis Anda</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Branding & Identity</h3>
+                    <p>Pembuatan identitas merek yang kuat melalui logo, tipografi, dan sistem visual yang konsisten.</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Print Design</h3>
+                    <p>Desain untuk media cetak seperti brosur, flyer, katalog, dan packaging produk.</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Digital Design</h3>
+                    <p>Desain untuk media digital seperti banner, social media post, dan website graphics.</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <h3>Ilustrasi</h3>
+                    <p>Ilustrasi kreatif dan menarik untuk berbagai kebutuhan media digital dan cetak.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Saya</h2>
+                <div class="divider"></div>
+                <p>Mari berdiskusi tentang proyek desain Anda berikutnya</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>tatarupaind@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telepon</h4>
+                            <p>+62 895 3669 66582</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Indonesia</h4>
+                            <p>Surabaya, Jawa timur</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Alamat Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subjek">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Tata Rupa</h3>
+                    <p>Graphic Designer Team</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#portfolio">Portofolio</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tata Rupa. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
